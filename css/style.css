@@ -326,7 +326,7 @@ main {
 .header__link--active a {
   position: relative;
   color: #202720;
-  padding: 4px 35px 4px 0;
+  padding: 4px 50px 4px 0;
 }
 .header__link--active img {
   position: absolute;
