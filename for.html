@@ -17,52 +17,18 @@
 </head>
 
 <body>
+	<div class="wrapper">
 
-	<header>
-		<div class="header__container container">
-			<div class="header__inner">
-				<div class="header__logo logo">
-					<a href="index.html"><img src="images/icons/logo.svg" alt="logo" /></a>
-				</div>
-				<div class="header__row">
-					<!-- пк меню -->
-					<nav class="header__nav">
-						<ul class="header__list">
-							<li class="header__link"><a href="index.html">главное</a></li>
-							<li class="header__link"><a href="projects.html">проекты</a></li>
-							<li class="header__link"><a href="donation.html">донат</a></li>
-							<li class="header__link header__link--active">
-								<a href="for.html">Нанять <img src="images/icons/header/active-link.svg"
-										alt="active link" /></a>
-							</li>
-							<li class="header__link"><a href="feedback.html">обратная связь</a></li>
-						</ul>
-						<div class="header__lang">
-							<button class="header__lang-btn header__lang-btn--active">ru</button>
-							<button class="header__lang-btn">en</button>
-						</div>
-						<button class="nav-btn">
-							<img src="images/icons/header/burger.svg" alt="menu bg" />
-							<span class="nav-btn-icon"></span>
-						</button>
-					</nav>
-					<!-- /пк меню -->
-
-					<!-- Мобильное меню/ -->
-					<nav class="header__nav header__nav-mobile">
-						<div class="header__list navbar" id="navbar">
-							<div class="header__row-menu">
-								<div class="header__logo logo">
-									<a href="index.html"><img src="images/icons/logo.svg" alt="logo" /></a>
-								</div>
-								<div class="header__row">
-									<div class="header__nav"></div>
-									<div class="header__row-line"></div>
-								</div>
-							</div>
-
-							<!-- список меню мобильный -->
-							<ul class="header__mobile-list">
+		<header>
+			<div class="header__container container">
+				<div class="header__inner">
+					<div class="header__logo logo">
+						<a href="index.html"><img src="images/icons/logo.svg" alt="logo" /></a>
+					</div>
+					<div class="header__row">
+						<!-- пк меню -->
+						<nav class="header__nav">
+							<ul class="header__list">
 								<li class="header__link"><a href="index.html">главное</a></li>
 								<li class="header__link"><a href="projects.html">проекты</a></li>
 								<li class="header__link"><a href="donation.html">донат</a></li>
@@ -72,221 +38,267 @@
 								</li>
 								<li class="header__link"><a href="feedback.html">обратная связь</a></li>
 							</ul>
-							<!-- /список меню мобильный -->
-
-							<a class="nav-btn nav-btn-close close" href="#">
+							<div class="header__lang">
+								<button class="header__lang-btn header__lang-btn--active">ru</button>
+								<button class="header__lang-btn">en</button>
+							</div>
+							<button class="nav-btn">
 								<img src="images/icons/header/burger.svg" alt="menu bg" />
 								<span class="nav-btn-icon"></span>
-							</a>
-						</div>
-						<div class="header__row-line"></div>
-					</nav>
-					<!-- Мобильное меню/ -->
+							</button>
+						</nav>
+						<!-- /пк меню -->
 
-					<!-- Кнопка открытия меню -->
-					<a class="hamburger nav-btn" href="#navbar">
-						<img src="images/icons/header/burger.svg" alt="menu bg" />
-						<span class="nav-btn-icon"></span>
-					</a>
-					<!-- /Кнопка открытия меню -->
+						<!-- Мобильное меню/ -->
+						<nav class="header__nav header__nav-mobile">
+							<div class="header__list navbar" id="navbar">
+								<div class="header__row-menu">
+									<div class="header__logo logo">
+										<a href="index.html"><img src="images/icons/logo.svg" alt="logo" /></a>
+									</div>
+									<div class="header__row">
+										<div class="header__nav"></div>
+										<div class="header__row-line"></div>
+									</div>
+								</div>
+
+								<!-- список меню мобильный -->
+								<ul class="header__mobile-list">
+									<li class="header__link"><a href="index.html">главное</a></li>
+									<li class="header__link"><a href="projects.html">проекты</a></li>
+									<li class="header__link"><a href="donation.html">донат</a></li>
+									<li class="header__link header__link--active">
+										<a href="for.html">Нанять <img src="images/icons/header/active-link.svg"
+												alt="active link" /></a>
+									</li>
+									<li class="header__link"><a href="feedback.html">обратная связь</a></li>
+									<div class="header__lang">
+										<a class="header__lang-btn header__lang-btn--active" href="index.html">ru</a>
+										<a class="header__lang-btn" href="index-en.html">en</a>
+									</div>
+								</ul>
+								<!-- /список меню мобильный -->
+
+								<a class="nav-btn nav-btn-close close" href="#">
+									<img src="images/icons/header/burger.svg" alt="menu bg" />
+									<span class="nav-btn-icon"></span>
+								</a>
+							</div>
+							<div class="header__row-line"></div>
+						</nav>
+						<!-- Мобильное меню/ -->
+
+						<!-- Кнопка открытия меню -->
+						<a class="hamburger nav-btn" href="#navbar">
+							<img src="images/icons/header/burger.svg" alt="menu bg" />
+							<span class="nav-btn-icon"></span>
+						</a>
+						<!-- /Кнопка открытия меню -->
+					</div>
 				</div>
 			</div>
-		</div>
-	</header>
+		</header>
 
-	<main>
-		<section class="for">
-			<div class="for__container container">
-				<h1 class="for__title title">for</h1>
-				<p class="for__subtitle subtitle"><span>Найм на работу</span> - это не донат, <span>это покупка времени
-					</span>и <span>навыков.</span></p>
-				<div class="for__text">
-					<p>
-						Добровольные пожертвования очень помогают с мотивацией и высвобождением времени, но зачастую их не
-						достаточно, чтобы покрыть
-						повседневные расходы, поэтому сейчас я не могу работать только над некоммерческими проектами будь то
-						программное обеспечение, статьи или
-						видео.
+		<main>
+			<section class="for">
+				<div class="for__container container">
+					<h1 class="for__title title">for</h1>
+					<p class="for__subtitle subtitle"><span>Найм на работу</span> - это не донат, <span>это покупка времени
+						</span>и <span>навыков.</span></p>
+					<div class="for__text">
+						<p>
+							Добровольные пожертвования очень помогают с мотивацией и высвобождением времени, но зачастую их не
+							достаточно, чтобы покрыть
+							повседневные расходы, поэтому сейчас я не могу работать только над некоммерческими проектами будь
+							то
+							программное обеспечение, статьи или
+							видео.
+						</p>
+					</div>
+					<p class="for__subtitle-second subtitle">
+						За годы активности я <span>встречал</span> пользователей,
+						<span>близких по духу.</span>
 					</p>
-				</div>
-				<p class="for__subtitle-second subtitle">
-					За годы активности я <span>встречал</span> пользователей,
-					<span>близких по духу.</span>
-				</p>
-				<div class="for__row for__row--end">
-					<div class="for__text--small">
-						<p>
-							Некоторые из них оказывали сиюминутную помощь, <br />
-							но часть стала больше, чем просто списком никнеймов.
-						</p>
+					<div class="for__row for__row--end">
+						<div class="for__text--small">
+							<p>
+								Некоторые из них оказывали сиюминутную помощь, <br />
+								но часть стала больше, чем просто списком никнеймов.
+							</p>
+						</div>
+						<div class="for__text--small">
+							<p>
+								В мире, где цензура и контроль становятся все более распространенными, такие люди стали ценными
+								союзниками в борьбе за свободу и
+								приватность в интернете.
+							</p>
+						</div>
 					</div>
-					<div class="for__text--small">
-						<p>
-							В мире, где цензура и контроль становятся все более распространенными, такие люди стали ценными
-							союзниками в борьбе за свободу и
-							приватность в интернете.
-						</p>
-					</div>
-				</div>
 
-				<div class="for__row-text for__row-border">
-					<div>
-						<img src="images/icons/border-decor.svg" alt="green line border" />
+					<div class="for__row-text for__row-border">
+						<div>
+							<img src="images/icons/border-decor.svg" alt="green line border" />
+						</div>
+						<div class="for__row for__row--bright">
+							<p class="for__text--brigth for__text--wide">
+								Делая заказ, вы обращаетесь не только ко мне, но и к специалистам - моим товарищам, условной
+								acetone team. Найти работу с сохранением
+								желаемого уровня приватности очень не легко, но за счет публичности моего никнейма мы потихоньку
+								справляемся с этой задачей.
+							</p>
+							<p class="for__text--brigth">
+								Главная гарантия на этапе предоплаты - честь моего никнейма, которая строится годами. Вы не
+								отдаете
+								деньги в неизвестность,
+								я&nbsp;ручаюсь за организационные мероприятия, а также непосредственно за исполнение своей части
+								в
+								программном и администраторском
+								направлениях.
+							</p>
+						</div>
+						<div>
+							<img src="images/icons/border-decor.svg" alt="green line border" />
+						</div>
 					</div>
-					<div class="for__row for__row--bright">
-						<p class="for__text--brigth for__text--wide">
-							Делая заказ, вы обращаетесь не только ко мне, но и к специалистам - моим товарищам, условной
-							acetone team. Найти работу с сохранением
-							желаемого уровня приватности очень не легко, но за счет публичности моего никнейма мы потихоньку
-							справляемся с этой задачей.
+				</div>
+			</section>
+
+			<section class="services">
+				<div class="services__container container">
+					<p class="services__subtitle subtitle">
+						Наша <span>команда</span> - это группа людей, <span>объединенных</span> общей целью и
+						<span>работающих</span> в
+						<span>анонимном режиме</span>.
+					</p>
+					<div class="services__text-block">
+						<p class="for__text--brigth">
+							Среди нас опытные разработчики программного обеспечения, хакеры разных направлений, творческие люди
+							и
+							специалисты по безопасности.
 						</p>
 						<p class="for__text--brigth">
-							Главная гарантия на этапе предоплаты - честь моего никнейма, которая строится годами. Вы не отдаете
-							деньги в неизвестность,
-							я&nbsp;ручаюсь за организационные мероприятия, а также непосредственно за исполнение своей части в
-							программном и администраторском
-							направлениях.
+							Работая вместе, мы создаем и развиваем инструменты, которые по мере необходимости обеспечивают
+							безопасность, анонимность, помогают
+							обходить цензуру и реализовывать бизнес-идеи.
 						</p>
 					</div>
-					<div>
-						<img src="images/icons/border-decor.svg" alt="green line border" />
+
+					<div class="services__steps services-steps">
+						<div class="services-steps__item steps-item">
+							<p class="steps-item__num">01</p>
+							<div class="steps-item__box">
+								<div class="steps-item__info">
+									<p>
+										Мы предоставляем услуги людям, которым важна приватность и анонимность в онлайн-среде при
+										этом сами остаемся недосягаемыми для
+										разного рода недоброжелателей в силу собственной анонимности.
+									</p>
+								</div>
+							</div>
+						</div>
+						<div class="services-steps__item steps-item">
+							<p class="steps-item__num">02</p>
+							<div class="steps-item__box">
+								<div class="steps-item__info">
+									<p>Каждую идею обсудим отдельно, распланируем время и дополнительные расходы, обговорим
+										ценник.
+									</p>
+								</div>
+							</div>
+						</div>
+						<div class="services-steps__item steps-item">
+							<p class="steps-item__num">03</p>
+							<div class="steps-item__box">
+								<div class="steps-item__info">
+									<p>Все платежи исключительно в криптовалюте, удобной для вас.</p>
+								</div>
+							</div>
+						</div>
+						<div class="services-steps__item steps-item">
+							<p class="steps-item__num">04</p>
+							<div class="steps-item__box">
+								<div class="steps-item__info">
+									<p>
+										Займемся разработкой приложения для приватного общения, запустим рекламу в любых
+										плоскостях
+										всемирной паутины, создадим систему
+										анонимных платежей, разработаем индивидуальный инструмент для обхода интернет-цензуры.
+									</p>
+								</div>
+							</div>
+						</div>
+						<div class="services-steps__item steps-item">
+							<p class="steps-item__num">05</p>
+							<div class="steps-item__box">
+								<div class="steps-item__info">
+									<p>Также можем предоставить макет сайта любой сложности, иллюстрации и уникальные саундтреки
+										под
+										любые нужды.</p>
+								</div>
+							</div>
+						</div>
 					</div>
 				</div>
-			</div>
-		</section>
+			</section>
 
-		<section class="services">
-			<div class="services__container container">
-				<p class="services__subtitle subtitle">
-					Наша <span>команда</span> - это группа людей, <span>объединенных</span> общей целью и
-					<span>работающих</span> в
-					<span>анонимном режиме</span>.
-				</p>
-				<div class="services__text-block">
-					<p class="for__text--brigth">
-						Среди нас опытные разработчики программного обеспечения, хакеры разных направлений, творческие люди и
-						специалисты по безопасности.
+			<section class="info">
+				<div class="info__container container">
+					<p class="info__subtitle subtitle">
+						<span>Для коммерческого </span>
+						запроса воспользуйтесь
+						<span>общей формой</span>.
 					</p>
-					<p class="for__text--brigth">
-						Работая вместе, мы создаем и развиваем инструменты, которые по мере необходимости обеспечивают
-						безопасность, анонимность, помогают
-						обходить цензуру и реализовывать бизнес-идеи.
+					<p class="info__text">Укажите суть вашего заказа, а также контакт для связи.</p>
+					<div class="info__about">
+						<div class="info__border">
+							<img src="images/icons/border-decor.svg" alt="green line border" />
+						</div>
+						<div class="info__row">
+							<div class="info__block">
+								<p>Если вы используете шифрование PGP, приложите публичный ключ (в текстовом виде).</p>
+								<p>Приоритетный способ связи - электронная почта.</p>
+							</div>
+							<div class="info__block">
+								<p>Для быстротекущих обсуждений - IRC (irc.ilita.i2p).</p>
+								<p>Если предпочитаете другие места для общения - приложите соответствующий контакт.</p>
+							</div>
+						</div>
+						<div class="info__border">
+							<img src="images/icons/border-decor.svg" alt="green line border" />
+						</div>
+					</div>
+					<p class="info__text-social">
+						На централизованные мессенджеры вроде <span>Telegram, Vk, Signal, Facebook</span> и подобные ответ не
+						даю: давайте уважать друг друга.
 					</p>
 				</div>
+			</section>
 
-				<div class="services__steps services-steps">
-					<div class="services-steps__item steps-item">
-						<p class="steps-item__num">01</p>
-						<div class="steps-item__box">
-							<div class="steps-item__info">
-								<p>
-									Мы предоставляем услуги людям, которым важна приватность и анонимность в онлайн-среде при
-									этом сами остаемся недосягаемыми для
-									разного рода недоброжелателей в силу собственной анонимности.
-								</p>
-							</div>
-						</div>
-					</div>
-					<div class="services-steps__item steps-item">
-						<p class="steps-item__num">02</p>
-						<div class="steps-item__box">
-							<div class="steps-item__info">
-								<p>Каждую идею обсудим отдельно, распланируем время и дополнительные расходы, обговорим ценник.
-								</p>
-							</div>
-						</div>
-					</div>
-					<div class="services-steps__item steps-item">
-						<p class="steps-item__num">03</p>
-						<div class="steps-item__box">
-							<div class="steps-item__info">
-								<p>Все платежи исключительно в криптовалюте, удобной для вас.</p>
-							</div>
-						</div>
-					</div>
-					<div class="services-steps__item steps-item">
-						<p class="steps-item__num">04</p>
-						<div class="steps-item__box">
-							<div class="steps-item__info">
-								<p>
-									Займемся разработкой приложения для приватного общения, запустим рекламу в любых плоскостях
-									всемирной паутины, создадим систему
-									анонимных платежей, разработаем индивидуальный инструмент для обхода интернет-цензуры.
-								</p>
-							</div>
-						</div>
-					</div>
-					<div class="services-steps__item steps-item">
-						<p class="steps-item__num">05</p>
-						<div class="steps-item__box">
-							<div class="steps-item__info">
-								<p>Также можем предоставить макет сайта любой сложности, иллюстрации и уникальные саундтреки под
-									любые нужды.</p>
-							</div>
+			<section class="pagination">
+				<div class="container">
+					<div class="pagination__inner">
+						<p class="pagination__tag">&lt;Эта страница доступна в&gt;</p>
+						<div class="pagination__box">
+							<a class="pagination__item" href="#"> I2P </a>
+							<a class="pagination__item" href="#"> Tor </a>
+							<a class="pagination__item" href="#"> Yggdrasil </a>
+							<a class="pagination__item" href="#"> Clearnet </a>
 						</div>
 					</div>
 				</div>
-			</div>
-		</section>
+			</section>
+		</main>
 
-		<section class="info">
-			<div class="info__container container">
-				<p class="info__subtitle subtitle">
-					<span>Для коммерческого </span>
-					запроса воспользуйтесь
-					<span>общей формой</span>.
-				</p>
-				<p class="info__text">Укажите суть вашего заказа, а также контакт для связи.</p>
-				<div class="info__about">
-					<div class="info__border">
-						<img src="images/icons/border-decor.svg" alt="green line border" />
-					</div>
-					<div class="info__row">
-						<div class="info__block">
-							<p>Если вы используете шифрование PGP, приложите публичный ключ (в текстовом виде).</p>
-							<p>Приоритетный способ связи - электронная почта.</p>
-						</div>
-						<div class="info__block">
-							<p>Для быстротекущих обсуждений - IRC (irc.ilita.i2p).</p>
-							<p>Если предпочитаете другие места для общения - приложите соответствующий контакт.</p>
-						</div>
-					</div>
-					<div class="info__border">
-						<img src="images/icons/border-decor.svg" alt="green line border" />
-					</div>
-				</div>
-				<p class="info__text-social">
-					На централизованные мессенджеры вроде <span>Telegram, Vk, Signal, Facebook</span> и подобные ответ не
-					даю: давайте уважать друг друга.
-				</p>
-			</div>
-		</section>
-
-		<section class="pagination">
+		<footer class="footer">
 			<div class="container">
-				<div class="pagination__inner">
-					<p class="pagination__tag">&lt;Эта страница доступна в&gt;</p>
-					<div class="pagination__box">
-						<a class="pagination__item" href="#"> I2P </a>
-						<a class="pagination__item" href="#"> Tor </a>
-						<a class="pagination__item" href="#"> Yggdrasil </a>
-						<a class="pagination__item" href="#"> Clearnet </a>
-					</div>
+				<div class="footer__inner">
+					<div class="footer__line"></div>
+					<p class="footer__copy">2021-2023 (c) acetone</p>
 				</div>
 			</div>
-		</section>
-	</main>
+		</footer>
 
-	<footer class="footer">
-		<div class="container">
-			<div class="footer__inner">
-				<div class="footer__line"></div>
-				<p class="footer__copy">2021-2023 (c) acetone</p>
-			</div>
-		</div>
-	</footer>
-
-	<script src="js/main.js"></script>
+	</div>
 </body>
 <!-- burger menu with js -->
 

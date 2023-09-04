@@ -113,11 +113,30 @@ body {
   line-height: 1.2;
   color: #8cf394;
   background: linear-gradient(180deg, #024402 0%, #012601 15.1%, #202720 49.48%, #012601 86.98%, #024402 100%);
-  background-repeat: no-repeat;
   background-attachment: fixed;
+  background-repeat: no-repeat;
+  min-height: 100vh;
+}
+
+.wrapper {
   display: flex;
   flex-direction: column;
   min-height: 100vh;
+  position: relative;
+}
+.wrapper::before {
+  content: "";
+  position: absolute;
+  background-image: url(../images/Texture.png);
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background-position: center;
+  background-size: cover;
+  opacity: 0.3;
+  z-index: 1;
+  pointer-events: none;
 }
 
 main {
@@ -479,6 +498,12 @@ main {
     gap: 30px;
   }
   .nav-btn {
+    display: flex;
+  }
+  .header__mobile-list .header__lang {
+    max-width: 70px;
+    width: -moz-fit-content;
+    width: fit-content;
     display: flex;
   }
 }
@@ -1017,7 +1042,6 @@ main {
 /* -------------------/projects------------------------------------------*/
 /* -------------------feedback------------------------------------------*/
 .feedback__title {
-  max-width: 1300px;
   margin-bottom: 100px;
 }
 .feedback__content p + p {
