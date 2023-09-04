@@ -1017,7 +1017,11 @@ main {
 /* -------------------/projects------------------------------------------*/
 /* -------------------feedback------------------------------------------*/
 .feedback__title {
+  max-width: 1300px;
   margin-bottom: 100px;
+}
+.feedback__content p + p {
+  margin-top: 30px;
 }
 .feedback__form {
   position: relative;
